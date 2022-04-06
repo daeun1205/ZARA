@@ -763,6 +763,15 @@ footer .footer-b-b {
 }
 
 @media (max-width:375px){
+  .banner .banner-slider .btn{
+    bottom: 30px;
+  }
+  .banner .side-header .menu{
+    width: 170px;
+  }
+  .banner .side-header .menu li{
+    font-size: 0.8rem;
+  }
   footer .footer-t .footer-t-l h2{
     font-size: 15px;
   }
