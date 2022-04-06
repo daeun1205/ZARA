@@ -451,8 +451,8 @@ footer .footer-b-b {
   width: 50px;
   height: 50px;
   position: fixed;
-  bottom: 50px;
-  right: 50px;
+  bottom: 20px;
+  right: 20px;
   z-index: 999;
   cursor: pointer;
   animation: video_reel 6.5s linear infinite;
@@ -780,5 +780,12 @@ footer .footer-b-b {
   }
   footer a{
     font-size: 0.2rem;
+  }
+  .footer-b-b li span{
+    display: none;
+  }
+  .top_but img{
+    width: 40px;
+    height: 40px;
   }
 }
