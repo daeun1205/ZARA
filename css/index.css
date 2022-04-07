@@ -4,9 +4,6 @@
   display: none;
 }
 
-#wrap {
-  overflow-x: hidden;
-}
 input[id=hamburger]{
   display: none;
 }
@@ -422,7 +419,6 @@ footer .footer-b-t {
 }
 footer .footer-b-b {
   margin-top: 90px;
-  padding-right: 90px;
   overflow: hidden;
 }
 .footer-b-t .footer-b-t-l p,
@@ -799,13 +795,7 @@ footer .footer-b-b {
   footer .footer-b-b p{
     font-size: 0.2rem;
   }
-  footer .footer-b-b span{
-    display: none;
-  }
   footer a{
     font-size: 0.2rem;
-  }
-  .footer-b-b li span{
-    display: none;
   }
 }
