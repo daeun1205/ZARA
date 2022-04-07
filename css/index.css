@@ -667,6 +667,11 @@ footer .footer-b-b {
   }
   .sec-1 .sec1-l{
     margin-bottom: 50px;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .sec-1 .sec1-r{
+    justify-content: center;
   }
   /* section-2 */
   .sec-2{
@@ -762,6 +767,15 @@ footer .footer-b-b {
   }
 }
 
+@media (max-width:500px){
+  .top_but img{
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
 @media (max-width:375px){
   .banner .banner-slider .btn{
     bottom: 30px;
@@ -793,11 +807,5 @@ footer .footer-b-b {
   }
   .footer-b-b li span{
     display: none;
-  }
-  .top_but img{
-    width: 40px;
-    height: 40px;
-    bottom: 20px;
-    right: 20px;
   }
 }
