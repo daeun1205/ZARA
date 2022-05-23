@@ -36,6 +36,10 @@ input[id=hamburger]{
   font-weight: 600;
 }
 .banner .side-header .menu li a{
+  color: #7e7e7e;
+  transition: 0.5s;
+}
+.banner .side-header .menu li:hover a{
   color: #444444;
 }
 .banner .side-header .menu li:last-child {
