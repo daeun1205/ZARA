@@ -263,12 +263,16 @@ input[id=hamburger]{
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  margin-bottom: 10px;
 }
 #product_box .sec2_txt h4 {
   margin-right: 20px;
+  font-size: 18px;
   font-family: "Roboto";
   font-weight: 300;
   color: #525252;
+}
+#product_box .sec2_txt h4:hover{
   border-bottom: 1px solid #525252;
 }
 .sec2_slither {
@@ -281,14 +285,14 @@ input[id=hamburger]{
 .sec2_slither .slither {
   margin-right: 15px;
 }
-@keyframes perfume {
+/* @keyframes perfume {
   0% {
     transform: translateX(0);
   }
   100% {
     transform: translateX(-100%);
   }
-}
+} */
 
 /* .sec-3 */
 .sec-3 {
