@@ -285,14 +285,14 @@ input[id=hamburger]{
 .sec2_slither .slither {
   margin-right: 15px;
 }
-/* @keyframes perfume {
+@keyframes perfume {
   0% {
     transform: translateX(0);
   }
   100% {
     transform: translateX(-100%);
   }
-} */
+}
 
 /* .sec-3 */
 .sec-3 {
