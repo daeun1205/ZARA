@@ -86,14 +86,14 @@ $(document).ready(function(){
 
             //sec-3
             //해당 영역 메뉴에 마우스 올리면 배경이미지 변경되게끔 처리하기
-            $('.inner-gallery').mouseenter(function(){
+            $('.inner-gallery a').mouseenter(function(){
                 var changeImage = $(this).attr('data-image')
                 $('.fade-gallery-photo').css({
                     'background-image' : 'url(' + changeImage + ')',
                 });
             });
         
-            $('.inner-gallery').mouseleave(function(){
+            $('.inner-galleryc a').mouseleave(function(){
                 $('.fade-gallery-photo').css({
                     'background-image' : ''
                 });
